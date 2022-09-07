@@ -3,5 +3,5 @@ let readSentence = (str) => {
   const wordsCount = str.split(" ").length;
   const vowelCount = str.match(/[aeiou]/gi).length;
 
-  return `The sentence is ${lengthCount} characters long, consists of ${wordsCount} words, with ${vowelCount} vowels.`;
+  return `The sentence is ${lengthCount} characters long. It consists of ${wordsCount} words, with ${vowelCount} vowels.`;
 };
